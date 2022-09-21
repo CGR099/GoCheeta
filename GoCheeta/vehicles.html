@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Red+Hat+Display:ital,wght@0,400;0,500;1,400&family=Roboto:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Vehicles</title>
+    </head>
+
+    <body>
+      <nav>
+        <div id="navbackground">
+            <ul>
+                <li id="sandwichicon"><img src="Assets/Pictures/ss%20logo.jpg" width="50" height="60"></li>
+                <div class="borderXwidth">
+                <li><a class="tab" href="">Home</a></li>
+                <li><a class="tab" href="">Bookings</a></li>
+                <li><a class="tab" href="">Branches</a></li>
+                <li><a class="tab" href="">Drivers</a></li>
+                <li><a class="tab" href="">Vehicles</a></li>
+                <li><a class="tab" href="">Account</a></li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+     <main>
+         <section class="form">
+            <div class="summary">
+              <h1>Vehicle Info</h1>
+            </div>
+
+            <form name='book' method="post" action="" >
+
+                   Vehicles License
+                    <input type="drivertel" name="drivertel" class="drivertel">
+                  </label>
+              </label>
+              <button type="submit" name="submit" value="submit" id="submit">
+               Search
+              </button>
+              <label>
+                Vehicle ID
+                <input type="vehino" name="vehino" class="vehino">
+              </label>
+              <label>
+                Driver ID
+                <input type="driverid" name="driverid" class="driverid">
+              </label>
+              <label>
+                  <br><br>
+                    <label>
+                      Branch
+                      <div class="container">
+                          <div class="select-container">
+                            <select>
+                              <option value="">Galle</option>
+                              <option value="">Kandy</option>
+                              <option value="">Kurunegala</option>
+                              <option value="">Jaffna</option>
+                              <option value="">Gampaha</option>
+                              <option value="">Nugegoda</option>
+                            </select>    
+                          </div>
+                        </div>
+                    </label>
+                </label>
+                <br><br>
+                <label>
+                    Vehical Type
+                    <div class="container">
+                        <div class="select-container">
+                          <select>
+                            <option value="">Car</option>
+                            <option value="">Nano</option>
+                            <option value="">Bike</option>
+                            <option value="">Van</option>
+                            <option value="">Bus</option>
+                          </select>    
+                        </div>
+                      </div>
+                  </label>
+                  <br><br>
+              <button type="submit" name="submit" value="submit" id="submit">
+                Update
+              </button>
+              <button type="submit" name="submit" value="submit" id="submit">
+                Remove
+              </button>
+              <button type="submit" name="submit" value="submit" id="submit">
+                Add New Vehicle
+              </button>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
